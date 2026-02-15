@@ -1,0 +1,56 @@
+{
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to common questions about Estatein's services, property listings, and the real estate process. We're here to provide clarity and assist you every step of the way.",
+    "faqs": [
+        {
+            "id": 1,
+            "question": "How do I search for properties on Estatein?",
+            "answer": "Learn how to use our user-friendly search tools to find properties that match your criteria."
+        },
+        {
+            "id": 2,
+            "question": "What documents do I need to sell my property through Estatein?",
+            "answer": "Find out about the necessary documentation for listing your property with us."
+        },
+        {
+            "id": 3,
+            "question": "How can I contact an Estatein agent?",
+            "answer": "Discover the different ways you can get in touch with our experienced agents."
+        },
+        {
+            "id": 4,
+            "question": "Does Estatein offer property management services?",
+            "answer": "Yes, we provide comprehensive property management, including maintenance, tenant screening, and rent collection for landlords."
+        },
+        {
+            "id": 5,
+            "question": "What are the fees for buying a property through Estatein?",
+            "answer": "Our buyer services are typically free; we earn our commission from the seller. Contact us for specific details on closing costs."
+        },
+        {
+            "id": 6,
+            "question": "How do you determine the market value of my property?",
+            "answer": "We use a combination of local market trends, recent sales data, and property inspections to provide an accurate valuation."
+        },
+        {
+            "id": 7,
+            "question": "Can I schedule a virtual tour of a property?",
+            "answer": "Absolutely! We offer high-quality virtual tours and video calls for most of our listings so you can explore homes from anywhere."
+        },
+        {
+            "id": 8,
+            "question": "What happens after I make an offer on a home?",
+            "answer": "Once you submit an offer, we negotiate with the seller on your behalf. If accepted, we guide you through the inspection and closing process."
+        },
+        {
+            "id": 9,
+            "question": "Are there any hidden costs I should be aware of?",
+            "answer": "We believe in full transparency. We provide a detailed breakdown of all expected costs, including taxes and legal fees, upfront."
+        },
+        {
+            "id": 10,
+            "question": "How long does it typically take to sell a property?",
+            "answer": "The timeline varies by location and market conditions, but our average listing sells within 30 to 45 days thanks to our marketing reach."
+        }
+    ]
+}

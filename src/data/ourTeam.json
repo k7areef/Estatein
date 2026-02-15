@@ -1,0 +1,26 @@
+{
+    "title": "Meet the Estatein Team",
+    "description": "At Estatein, our success is driven by the dedication and expertise of our team. Get to know the people behind our mission to make your real estate dreams a reality.",
+    "team": [
+        {
+            "id": 1,
+            "name": "Max Mitchell",
+            "position": "Founder"
+        },
+        {
+            "id": 2,
+            "name": "Sarah Johnson",
+            "position": "Chief Real Estate Officer"
+        },
+        {
+            "id": 3,
+            "name": "David Brown",
+            "position": "Head of Property Management"
+        },
+        {
+            "id": 4,
+            "name": "Michael Turner",
+            "position": "Legal Counsel"
+        }
+    ]
+}

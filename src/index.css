@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+  width: 100%;
+  max-width: 80rem;
+}
+
+@theme {
+  /* Purple Shades */
+  --color-purple-60: #703efb;
+  --color-purple-65: #8156fc;
+  --color-purple-70: #936dfd;
+  --color-purple-75: #a486fd;
+  --color-purple-90: #daceff;
+  --color-purple-95: #ede7ff;
+  --color-purple-97: #f4f0ff;
+  --color-purple-99: #fbfaff;
+  /* White Shades */
+  --color-white-90: #e4e4e7;
+  --color-white-95: #f1f1f3;
+  --color-white-97: #f7f7f8;
+  --color-white-99: #fcfcfd;
+  /* Purple Shades */
+  --color-grey-08: #141414;
+  --color-grey-10: #1a1a1a;
+  --color-grey-15: #262626;
+  --color-grey-20: #333333;
+  --color-grey-30: #4d4d4d;
+  --color-grey-40: #666666;
+  --color-grey-50: #808080;
+  --color-grey-60: #999999;
+}
+
+/* Global */
+html,
+body {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+p {
+  font-size: 14px;
+  color: var(--color-grey-60);
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  p {
+    font-size: 18px;
+  }
+}

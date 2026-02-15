@@ -1,0 +1,83 @@
+{
+    "title": "What Our Clients Say",
+    "description": "Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs.",
+    "testimonials": [
+        {
+            "id": 1,
+            "title": "Exceptional Service!",
+            "comment": "Estatein's expertise and professionalism exceeded my expectations. They made the process of finding my dream property a breeze.",
+            "name": "John Doe",
+            "location": "City, State"
+        },
+        {
+            "id": 2,
+            "title": "Efficient and Reliable",
+            "comment": "Estatein's customer service was outstanding. They were always available to answer my questions and provide guidance.",
+            "name": "Jane Smith",
+            "location": "City, State"
+        },
+        {
+            "id": 3,
+            "title": "title",
+            "comment": "I was impressed with the personalized attention and attention to detail provided by Estatein. They truly understood my needs.",
+            "name": "Bob Johnson",
+            "location": "City, State"
+        },
+        {
+            "id": 4,
+            "title": "Trusted Advisors",
+            "comment": "I was impressed with the personalized attention and attention to detail provided by Estatein. They truly understood my needs.",
+            "name": "Bob Johnson",
+            "location": "City, State"
+        },
+        {
+            "id": 5,
+            "title": "Efficient and Reliable",
+            "comment": "I was impressed with the personalized attention and attention to detail provided by Estatein. They truly understood my needs.",
+            "name": "Bob Johnson",
+            "location": "City, State"
+        },
+        {
+            "id": 6,
+            "title": "What Our Clients Say",
+            "comment": "I was impressed with the personalized attention and attention to detail provided by Estatein. They truly understood my needs.",
+            "name": "Bob Johnson",
+            "location": "City, State"
+        },
+        {
+            "id": 7,
+            "title": "Efficient and Reliable",
+            "comment": "I was impressed with the personalized attention and attention to detail provided by Estatein. They truly understood my needs.",
+            "name": "Bob Johnson",
+            "location": "City, State"
+        },
+        {
+            "id": 8,
+            "title": "Trusted Advisors",
+            "comment": "I was impressed with the personalized attention and attention to detail provided by Estatein. They truly understood my needs.",
+            "name": "Bob Johnson",
+            "location": "City, State"
+        },
+        {
+            "id": 9,
+            "title": "What Our Clients Say",
+            "comment": "I was impressed with the personalized attention and attention to detail provided by Estatein. They truly understood my needs.",
+            "name": "Bob Johnson",
+            "location": "City, State"
+        },
+        {
+            "id": 10,
+            "title": "Exceptional Service!",
+            "comment": "I was impressed with the personalized attention and attention to detail provided by Estatein. They truly understood my needs.",
+            "name": "Bob Johnson",
+            "location": "City, State"
+        },
+        {
+            "id": 11,
+            "title": "title",
+            "comment": "I was impressed with the personalized attention and attention to detail provided by Estatein. They truly understood my needs.",
+            "name": "Bob Johnson",
+            "location": "City, State"
+        }
+    ]
+}

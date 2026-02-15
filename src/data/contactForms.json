@@ -1,0 +1,17 @@
+{
+    "properties": {
+        "title": "Let's Make it Happen",
+        "description": "Ready to take the first step toward your dream property? Fill out the form below, and our real estate wizards will work their magic to find your perfect match. Don't wait; let's embark on this exciting journey together.",
+        "fiilds": []
+    },
+    "property": {
+        "title": "Inquire About Seaside Serenity Villa",
+        "description": "Interested in this property? Fill out the form below, and our real estate experts will get back to you with more details, including scheduling a viewing and answering any questions you may have.",
+        "fiilds": []
+    },
+    "contact": {
+        "title": "Let's Connect",
+        "description": "We're excited to connect with you and learn more about your real estate goals. Use the form below to get in touch with Estatein. Whether you're a prospective client, partner, or simply curious about our services, we're here to answer your questions and provide the assistance you need.",
+        "fiilds": []
+    }
+}
