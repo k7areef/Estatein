@@ -3,6 +3,10 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 
+// Swiper:
+import 'swiper/css';
+import 'swiper/css/navigation';
+
 // React Router DOM:
 import { BrowserRouter } from 'react-router-dom'
 

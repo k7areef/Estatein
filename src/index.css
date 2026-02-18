@@ -31,6 +31,8 @@
   --color-grey-40: #666666;
   --color-grey-50: #808080;
   --color-grey-60: #999999;
+  /* Supported Colors */
+  --color-yellow: #ffe500;
 }
 
 /* Global */
