@@ -17,7 +17,7 @@ function MenuToggler({ isExpand, setIsExpand }) {
         <Button
             variant="secondary"
             onClick={() => setIsExpand(prev => !prev)}
-            className="py-2! px-4!"
+            className="py-2! px-4! lg:hidden"
         >
             <FontAwesomeIcon icon={isExpand ? faXmark : faBars} />
             <span className="sr-only">Menu Toggler</span>
