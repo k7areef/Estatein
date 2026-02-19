@@ -7,7 +7,7 @@ function PropertiesPage() {
     return (
         <div className="properties-page">
             <main>
-                <HeaderSection />
+                <HeaderSection page="properties" />
                 <SearchAndFilter />
                 <Properties type="discover" />
                 <ContactForm page="properties" />

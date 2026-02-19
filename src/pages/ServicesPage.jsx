@@ -7,7 +7,7 @@ function ServicesPage() {
     return (
         <div className="services-page">
             <main>
-                <HeaderSection />
+                <HeaderSection page="properties" />
                 <Values />
                 <ManagementFeatures />
                 <InvestmentsFeatures />

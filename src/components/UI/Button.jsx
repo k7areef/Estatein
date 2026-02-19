@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 /**
  * @typedef {Object} CustomButtonProps
  * @property {string} [to]
- * @property {'primary' | 'secondary'} [variant]
+ * @property {'primary' | 'secondary' | 'dark'} [variant]
  * @property {React.ReactNode} children
  * @property {React.ButtonHTMLAttributes<HTMLButtonElement> | import("react-router-dom").LinkProps} [props]
  */
@@ -18,6 +18,7 @@ function Button({ variant = "primary", to = "", children, ...props }) {
     const variants = {
         primary: "bg-purple-60 text-white sm:hover:bg-purple-65",
         secondary: "bg-grey-10 text-white border border-grey-15 sm:hover:bg-grey-15",
+        dark: "bg-grey-08 text-white border border-grey-15"
     }
 
     const className = `px-4 py-2 sm:py-3 rounded-md font-semibold transition duration-300 ease-in-out ${variants[variant]} ${props.className}`;

@@ -8,7 +8,7 @@ function ContactPage() {
     return (
         <div className="contact-page">
             <main>
-                <HeaderSection />
+                <HeaderSection page="contact" />
                 <ContactInformation />
                 <ContactForm page="contact" />
                 <OurOffices />
