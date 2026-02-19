@@ -12,7 +12,7 @@ function Navigation() {
         <nav className="py-4 border-b border-b-grey-15">
             <div className="container flex items-center justify-between flex-wrap">
                 <AppLogo />
-                <NavLinks isExpand={isExpand} />
+                <NavLinks isExpand={isExpand} setIsExpand={setIsExpand} />
                 <div className="nav-actions flex items-center gap-3">
                     <ContactLink className="max-sm:hidden" />
                     <MenuToggler isExpand={isExpand} setIsExpand={setIsExpand} />

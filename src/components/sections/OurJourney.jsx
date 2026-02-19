@@ -1,11 +1,14 @@
 import Statistics from "@components/common/Statistics";
 import SectionHeader from "./common/SectionHeader";
+import hero from "@assets/images/about-hero.png";
+import abstract from "@assets/images/about-abstract.png";
+
 
 function OurJourney() {
     return (
         <section className="our-journey-section py-5 md:py-10" id="ourJourney">
             <div className="container">
-                <div className="content-grid grid lg:grid-cols-2 gap-5">
+                <div className="content-grid grid lg:grid-cols-2 gap-5 items-center">
                     <div className="content-wrapper max-lg:order-1">
                         <SectionHeader
                             className="mb-5"
@@ -14,9 +17,17 @@ function OurJourney() {
                         />
                         <Statistics />
                     </div>
-                    <div className="hero-wrapper">
-                        {/* Hero */}
-                        Hero Here
+                    <div className="hero-wrapper bg-grey-08 border border-grey-15 rounded-md overflow-hidden relative">
+                        <img
+                            src={abstract}
+                            alt="Abstract"
+                            className="w-full h-full object-cover opacity-50"
+                        />
+                        <img
+                            src={hero}
+                            alt="Hero"
+                            className="absolute z-1 right-0 bottom-0"
+                        />
                     </div>
                 </div>
             </div>

@@ -12,13 +12,14 @@ const links = [
 /**
  * @typedef NavLinksProps
  * @prop {boolean} isExpand
+ * @prop {function} setIsExpand
  */
 
 /**
  * @param {NavLinksProps} props
  */
 
-function NavLinks({ isExpand }) {
+function NavLinks({ isExpand, setIsExpand }) {
     return (
         <div className="nav-links max-lg:w-full max-lg:order-1">
             <div className={`links-wrapper grid transition-all ${isExpand ? "max-lg:grid-rows-[1fr] max-lg:opacity-100 mt-3" : "max-lg:grid-rows-[0fr] max-lg:opacity-0"}`}>
@@ -27,6 +28,7 @@ function NavLinks({ isExpand }) {
                         links.map((link, index) => (<li key={link.to || index}>
                             <NavLink
                                 to={link.to}
+                                onClick={() => setIsExpand(false)}
                                 className={({ isActive }) => `font-medium sm:text-lg block py-2 px-4 rounded-md border transition duration-300 ease-in-out ${isActive ? "bg-grey-08 border-grey-15" : "border-transparent bg-transparent"}`}
                             >
                                 {link.label}
@@ -34,7 +36,9 @@ function NavLinks({ isExpand }) {
                         </li>))
                     }
                     <li className='sm:hidden'>
-                        <ContactLink />
+                        <ContactLink
+                            onclick={() => setIsExpand(false)}
+                        />
                     </li>
                 </ul>
             </div>
