@@ -2,16 +2,391 @@
     "properties": {
         "title": "Let's Make it Happen",
         "description": "Ready to take the first step toward your dream property? Fill out the form below, and our real estate wizards will work their magic to find your perfect match. Don't wait; let's embark on this exciting journey together.",
-        "fiilds": []
+        "fields": [
+            {
+                "id": "firstName",
+                "type":"text",
+                "name":"firstName",
+                "label": "First Name",
+                "placeholder":"Enter First Name",
+                "typeField": "input"
+            },
+            {
+                "id": "lastName",
+                "type":"text",
+                "name":"lastName",
+                "label": "Last Name",
+                "placeholder":"Last Name",
+                "typeField": "input"
+            },
+            {
+                "id": "email",
+                "type":"email",
+                "name":"email",
+                "autoComplete": "on",
+                "label": "Email",
+                "placeholder":"Enter your email",
+                "typeField": "input"
+            },
+            {
+                "id": "phone",
+                "type":"tel",
+                "name":"phone",
+                "autoComplete": "on",
+                "label": "Phone",
+                "placeholder":"Enter Phone number",
+                "typeField": "input"
+            },
+            {
+                "id": "preferredLocation",
+                "name":"preferredLocation",
+                "label": "Preferred Location",
+                "typeField": "select",
+                "options": [
+                    {
+                        "value": null,
+                        "label": "Select"
+                    },
+                    {
+                        "value": "option1",
+                        "label": "Option 1"
+                    },
+                    {
+                        "value": "option2",
+                        "label": "Option 2"
+                    },
+                    {
+                        "value": "option3",
+                        "label": "Option 3"
+                    }
+                ]
+            },
+            {
+                "id": "propertyType",
+                "name":"propertyType",
+                "label": "Property Type",
+                "typeField": "select",
+                "options": [
+                    {
+                        "value": null,
+                        "label": "Select"
+                    },
+                    {
+                        "value": "option1",
+                        "label": "Option 1"
+                    },
+                    {
+                        "value": "option2",
+                        "label": "Option 2"
+                    },
+                    {
+                        "value": "option3",
+                        "label": "Option 3"
+                    }
+                ]
+            },
+            {
+                "id": "numberOfBathrooms",
+                "name":"numberOfBathrooms",
+                "label": "Number of Bathrooms",
+                "typeField": "select",
+                "options": [
+                    {
+                        "value": null,
+                        "label": "Select"
+                    },
+                    {
+                        "value": "option1",
+                        "label": "Option 1"
+                    },
+                    {
+                        "value": "option2",
+                        "label": "Option 2"
+                    },
+                    {
+                        "value": "option3",
+                        "label": "Option 3"
+                    }
+                ]
+            },
+            {
+                "id": "numberOfBedrooms",
+                "name":"numberOfBedrooms",
+                "label": "Number of Bedrooms",
+                "typeField": "select",
+                "options": [
+                    {
+                        "value": null,
+                        "label": "Select"
+                    },
+                    {
+                        "value": "option1",
+                        "label": "Option 1"
+                    },
+                    {
+                        "value": "option2",
+                        "label": "Option 2"
+                    },
+                    {
+                        "value": "option3",
+                        "label": "Option 3"
+                    }
+                ]
+            },
+            {
+                "id": "budget",
+                "name":"budget",
+                "label": "Budget",
+                "typeField": "select",
+                "options": [
+                    {
+                        "value": null,
+                        "label": "Select"
+                    },
+                    {
+                        "value": "option1",
+                        "label": "Option 1"
+                    },
+                    {
+                        "value": "option2",
+                        "label": "Option 2"
+                    },
+                    {
+                        "value": "option3",
+                        "label": "Option 3"
+                    }
+                ]
+            },
+            {
+                "id": "preferredContactMethod",
+                "name": "preferredContactMethod",
+                "label": "Preferred Contact Method",
+                "typeField": "radio_group",
+                "options": [
+                    {
+                        "input": {
+                            "type": "text",
+                            "name": "preferredContactMethod",
+                            "id": "preferredContactMethod-phone",
+                            "placeholder": "Enter Your Number",
+                            "typeField": "input"
+                        },
+                        "icon": "icon"
+                    },
+                    {
+                        "input": {
+                            "type": "email",
+                            "name": "preferredContactMethod",
+                            "id": "preferredContactMethod-email",
+                            "placeholder": "Enter Your Email",
+                            "typeField": "input"
+                        },
+                        "icon": "icon"
+                    }
+                ]
+            },
+            {
+                "id": "message",
+                "name":"message",
+                "label": "Message",
+                "placeholder":"Enter your message here..",
+                "typeField": "textarea",
+                "parentClassName": "col-span-1 md:col-span-2 lg:col-span-3 2xl:col-span-4"
+            }
+        ],
+        "initialValues": {
+            "firstName": "",
+            "lastName": "",
+            "email": "",
+            "phone": "",
+            "preferredLocation": "",
+            "propertyType": "",
+            "numberOfBathrooms": "",
+            "numberOfBedrooms": "",
+            "budget": "",
+            "preferredContactMethod": "",
+            "message": "",
+            "conditions": false
+        },
+        "fieldsGridClassName": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-5",
+        "submitBtnText": "Send Your Message"
     },
     "property": {
         "title": "Inquire About Seaside Serenity Villa",
         "description": "Interested in this property? Fill out the form below, and our real estate experts will get back to you with more details, including scheduling a viewing and answering any questions you may have.",
-        "fiilds": []
+        "fields": [
+            {
+                "id": "firstName",
+                "type":"text",
+                "name":"firstName",
+                "label": "First Name",
+                "placeholder":"Enter First Name",
+                "typeField": "input"
+            },
+            {
+                "id": "lastName",
+                "type":"text",
+                "name":"lastName",
+                "label": "Last Name",
+                "placeholder":"Last Name",
+                "typeField": "input"
+            },
+            {
+                "id": "email",
+                "type":"email",
+                "name":"email",
+                "autoComplete": "on",
+                "label": "Email",
+                "placeholder":"Enter your email",
+                "typeField": "input"
+            },
+            {
+                "id": "phone",
+                "type":"tel",
+                "name":"phone",
+                "autoComplete": "on",
+                "label": "Phone",
+                "placeholder":"Enter Phone number",
+                "typeField": "input"
+            },
+            {
+                "type": "text",
+                "name": "selectedProperty",
+                "id": "selectedProperty",
+                "readOnly": true,
+                "icon": "location",
+                "label": "Selected Property",
+                "placeholder": "Select a Property",
+                "typeField": "input",
+                "parentClassName": "col-span-1 md:col-span-2"
+            },
+            {
+                "id": "message",
+                "name":"message",
+                "label": "Message",
+                "placeholder":"Enter your message here..",
+                "typeField": "textarea",
+                "parentClassName": "col-span-1 md:col-span-2"
+            }
+        ],
+        "initialValues": {
+            "firstName": "",
+            "lastName": "",
+            "email": "",
+            "phone": "",
+            "selectedProperty": "",
+            "message": "",
+            "conditions": false
+        },
+        "fieldsGridClassName": "grid grid-cols-1 md:grid-cols-2 gap-5",
+        "submitBtnText": "Send Your Message"
     },
     "contact": {
         "title": "Let's Connect",
         "description": "We're excited to connect with you and learn more about your real estate goals. Use the form below to get in touch with Estatein. Whether you're a prospective client, partner, or simply curious about our services, we're here to answer your questions and provide the assistance you need.",
-        "fiilds": []
+        "fields": [
+            {
+                "id": "firstName",
+                "type":"text",
+                "name":"firstName",
+                "label": "First Name",
+                "placeholder":"Enter First Name",
+                "typeField": "input"
+            },
+            {
+                "id": "lastName",
+                "type":"text",
+                "name":"lastName",
+                "label": "Last Name",
+                "placeholder":"Last Name",
+                "typeField": "input"
+            },
+            {
+                "id": "email",
+                "type":"email",
+                "name":"email",
+                "label": "Email",
+                "autoComplete": "on",
+                "placeholder":"Enter your email",
+                "typeField": "input"
+            },
+            {
+                "id": "phone",
+                "type":"tel",
+                "name":"phone",
+                "label": "Phone",
+                "autoComplete": "on",
+                "placeholder":"Enter Phone number",
+                "typeField": "input"
+            },
+            {
+                "id": "inquiryType",
+                "name":"inquiryType",
+                "label": "Inquiry Type",
+                "typeField": "select",
+                "options": [
+                    {
+                        "value": null,
+                        "label": "Select"
+                    },
+                    {
+                        "value": "option1",
+                        "label": "Option 1"
+                    },
+                    {
+                        "value": "option2",
+                        "label": "Option 2"
+                    },
+                    {
+                        "value": "option3",
+                        "label": "Option 3"
+                    }
+                ]
+            },
+            {
+                "id": "howDidYouHearAboutUs",
+                "name":"howDidYouHearAboutUs",
+                "label": "How did you hear about us?",
+                "typeField": "select",
+                "options": [
+                    {
+                        "value": null,
+                        "label": "Select"
+                    },
+                    {
+                        "value": "option1",
+                        "label": "Option 1"
+                    },
+                    {
+                        "value": "option2",
+                        "label": "Option 2"
+                    },
+                    {
+                        "value": "option3",
+                        "label": "Option 3"
+                    }
+                ]
+            },
+            {
+                "id": "message",
+                "name":"message",
+                "label": "Message",
+                "placeholder":"Enter your message here..",
+                "typeField": "textarea",
+                "parentClassName": "col-span-1 md:col-span-2 lg:col-span-3"
+            }
+        ],
+        "initialValues": {
+            "firstName": "",
+            "lastName": "",
+            "email": "",
+            "phone": "",
+            "inquiryType": "",
+            "howDidYouHearAboutUs": "",
+            "message": "",
+            "conditions": false
+        },
+        "fieldsGridClassName": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5",
+        "submitBtnText": "Send Your Message"
     }
 }

@@ -10,7 +10,7 @@ function PropertyDetailPage() {
             <main>
                 <Images />
                 <PropertyDetails />
-                <ContactForm type="property" />
+                <ContactForm page="property" initialPropertyName={"Seaside Serenity Villa"} />
                 <PricingDetails />
                 <Faqs />
             </main>

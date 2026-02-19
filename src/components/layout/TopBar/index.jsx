@@ -13,7 +13,7 @@ function TopBar() {
     }, [close]);
 
     return (
-        <div className={`topbar border-b border-b-grey-15 bg-grey-10 relative ${close ? "hidden" : "visible"}`}>
+        <div className={`topbar border-b border-b-grey-15 bg-grey-10 relative max-sm:hidden ${close ? "hidden" : "visible"}`}>
             <img
                 src={topbarBg}
                 alt="Topbar Background"

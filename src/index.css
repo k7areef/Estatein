@@ -70,3 +70,8 @@ p {
     font-size: 18px;
   }
 }
+
+/* Custom Placeholder Color */
+::-webkit-input-placeholder {
+  color: var(--color-grey-40);
+}

@@ -10,7 +10,7 @@ function PropertiesPage() {
                 <HeaderSection />
                 <SearchAndFilter />
                 <Properties type="discover" />
-                <ContactForm type="properties" />
+                <ContactForm page="properties" />
             </main>
         </div>
     )

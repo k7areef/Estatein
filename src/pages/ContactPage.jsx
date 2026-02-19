@@ -10,7 +10,7 @@ function ContactPage() {
             <main>
                 <HeaderSection />
                 <ContactInformation />
-                <ContactForm type="contact" />
+                <ContactForm page="contact" />
                 <OurOffices />
                 <Gallery />
             </main>
