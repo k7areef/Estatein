@@ -11,6 +11,7 @@ import ServicesPage from "@pages/ServicesPage";
 import TopBar from "@components/layout/TopBar";
 import Navigation from "@components/layout/NavigationBar";
 import Footer from "@components/layout/Footer";
+import CTA from "@components/common/CTA";
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
         <Route path="services" element={<ServicesPage />} />
         <Route path="contact" element={<ContactPage />} />
       </Routes>
+      {/* CTA */}
+      <CTA />
       {/* Footer */}
       <Footer />
     </div>
