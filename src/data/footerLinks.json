@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "Home",
+        "links": [
+            {"id": 1,"to":"/", "label": "Hero Section"},
+            {"id": 2,"to":"/", "label": "Features"},
+            {"id": 3,"to":"/", "label": "Properties"},
+            {"id": 4,"to":"/", "label": "Testimonials"},
+            {"id": 5,"to":"/", "label": "FAQ’s"}
+        ]
+    },
+    {
+        "title": "About Us",
+        "links": [
+            {"id": 1,"to":"/about", "label": "Our Story"},
+            {"id": 2,"to":"/about", "label": "Our Works"},
+            {"id": 3,"to":"/about", "label": "How It Works"},
+            {"id": 4,"to":"/about", "label": "Our Team"},
+            {"id": 5,"to":"/about", "label": "Our Clients"}
+        ]
+    },
+    {
+        "title": "Properties",
+        "links": [
+            {"id": 1,"to":"/properties", "label": "Portfolio"},
+            {"id": 2,"to":"/properties", "label": "Categories"}
+        ]
+    },
+    {
+        "title": "Services",
+        "links": [
+            {"id": 1,"to":"/services", "label": "Valuation Mastery"},
+            {"id": 2,"to":"/services", "label": "Strategic Marketing"},
+            {"id": 3,"to":"/services", "label": "Negotiation Wizardry"},
+            {"id": 4,"to":"/services", "label": "Closing Success"},
+            {"id": 5,"to":"/services", "label": "Property Management"}
+        ]
+    },
+    {
+        "title": "Contact Us",
+        "links": [
+            {"id": 1,"to":"/contact", "label": "Contact Form"},
+            {"id": 2,"to":"/contact", "label": "Our Offices"}
+        ]
+    }
+]

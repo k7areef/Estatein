@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "icon": "email",
+        "links": [
+            {
+                "id": 1,
+                "name": "Email",
+                "value": "mailto:kh3reef@gmail.com",
+                "label": "kh3reef@gmail.com"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "icon": "phone",
+        "links": [
+            {
+                "id": 1,
+                "name": "Phone",
+                "value": "tel:+01122124968",
+                "label": "+01122124968"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "icon": "location",
+        "links": [
+            {
+                "id": 1,
+                "name": "Location",
+                "value": "https://www.google.com/maps",
+                "label": "Main Headquarters"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "icon": "logo",
+        "links": [
+            {
+                "id": 1,
+                "name": "Instagram",
+                "value": "https://www.instagram.com",
+                "label": "Instagram"
+            },
+            {
+                "id": 2,
+                "name": "Facebook",
+                "value": "https://www.facebook.com",
+                "label": "Facebook"
+            },
+            {
+                "id": 4,
+                "name": "Linkedin",
+                "value": "https://www.linkedin.com",
+                "label": "Linkedin"
+            }
+        ]
+    }
+]
