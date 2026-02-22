@@ -13,7 +13,7 @@ import bgIcon from "@assets/images/icons/icon-container-bg.png";
 
 function IconContainer({ className, src, alt }) {
     return (
-        <div className={`icon-container mx-auto w-14 h-14 text-lg relative ${className}`}>
+        <div className={`icon-container w-14 h-14 text-lg relative ${className}`}>
             <img
                 src={bgIcon}
                 alt="Background"

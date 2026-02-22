@@ -20,7 +20,7 @@ function ContactInformation() {
             {
                 data.map((card, index) => (<div className="info-card w-full bg-grey-10 px-5 py-10 rounded-lg border border-grey-15 relative group" key={`card-${card.id || index}`}>
                     <FontAwesomeIcon icon={faArrowUp} className="text-grey-30 rotate-45 absolute top-3 right-3 z-1 transition duration-300 ease-in-out group-has-[a:hover]:text-purple-60" />
-                    <IconContainer src={iconsMaper[card.icon]} alt={card.name} className="mb-3" />
+                    <IconContainer src={iconsMaper[card.icon]} alt={card.name} className="mb-3 mx-auto" />
                     <ul className="card-links flex items-center justify-center gap-2">
                         {
                             card.links.map((link, index) => (<li key={link.id || index}>

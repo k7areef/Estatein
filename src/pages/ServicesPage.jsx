@@ -1,3 +1,4 @@
+import Features from "@components/sections/Features";
 import HeaderSection from "@components/sections/HeaderSection";
 import InvestmentsFeatures from "@components/sections/InvestmentsFeatures";
 import ManagementFeatures from "@components/sections/ManagementFeatures";
@@ -8,6 +9,7 @@ function ServicesPage() {
         <div className="services-page">
             <main>
                 <HeaderSection page="properties" />
+                <Features />
                 <Values />
                 <ManagementFeatures />
                 <InvestmentsFeatures />
