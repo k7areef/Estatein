@@ -4,8 +4,10 @@ import OurClients from "@components/sections/OurClients";
 import OurJourney from "@components/sections/OurJourney";
 import OurTeam from "@components/sections/OurTeam";
 import OurValues from "@components/sections/OurValues";
+import useChangeTitle from "@hooks/useChangeTitle";
 
 function AboutPage() {
+    useChangeTitle("About Us");
     return (
         <div className="about-page">
             <main>

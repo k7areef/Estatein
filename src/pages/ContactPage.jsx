@@ -3,8 +3,10 @@ import ContactInformation from "@components/sections/ContactInformation";
 import Gallery from "@components/sections/Gallery";
 import HeaderSection from "@components/sections/HeaderSection";
 import OurOffices from "@components/sections/OurOffices";
+import useChangeTitle from "@hooks/useChangeTitle";
 
 function ContactPage() {
+    useChangeTitle("Contact Us");
     return (
         <div className="contact-page">
             <main>
