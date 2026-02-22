@@ -1,7 +1,6 @@
 [
     {
         "id": 1,
-        "icon": "email",
         "links": [
             {
                 "id": 1,
@@ -13,7 +12,6 @@
     },
     {
         "id": 2,
-        "icon": "phone",
         "links": [
             {
                 "id": 1,
@@ -25,7 +23,6 @@
     },
     {
         "id": 3,
-        "icon": "location",
         "links": [
             {
                 "id": 1,
@@ -37,7 +34,6 @@
     },
     {
         "id": 4,
-        "icon": "logo",
         "links": [
             {
                 "id": 1,

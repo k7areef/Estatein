@@ -1,22 +1,18 @@
 [
     {
         "id": 1,
-        "icon": "home",
         "name": "Find Your Dream Home"
     },
     {
         "id": 2,
-        "icon": "mony",
         "name": "Unlock Property Value"
     },
     {
         "id": 3,
-        "icon": "build",
         "name": "Effortless Property Management"
     },
     {
         "id": 4,
-        "icon": "logo",
         "name": "Smart Investments, Informed Decisions"
     }
 ]

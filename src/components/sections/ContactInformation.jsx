@@ -1,17 +1,17 @@
 import data from "@data/contactInfo.json";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import emailIcon from "@assets/images/icons/email.png";
-import phoneIcon from "@assets/images/icons/phone.png";
-import locationIcon from "@assets/images/icons/location.png";
-import logoIcon from "@assets/images/icons/logo.png";
 import IconContainer from "@components/UI/IconContainer";
+import icon1 from "@assets/images/icons/contact-information/1.png";
+import icon2 from "@assets/images/icons/contact-information/2.png";
+import icon3 from "@assets/images/icons/contact-information/3.png";
+import icon4 from "@assets/images/icons/contact-information/4.png";
 
 const iconsMaper = {
-    email: emailIcon,
-    phone: phoneIcon,
-    location: locationIcon,
-    logo: logoIcon
+    1: icon1,
+    2: icon2,
+    3: icon3,
+    4: icon4
 }
 
 function ContactInformation() {
@@ -20,7 +20,7 @@ function ContactInformation() {
             {
                 data.map((card, index) => (<div className="info-card w-full bg-grey-10 px-5 py-10 rounded-lg border border-grey-15 relative group" key={`card-${card.id || index}`}>
                     <FontAwesomeIcon icon={faArrowUp} className="text-grey-30 rotate-45 absolute top-3 right-3 z-1 transition duration-300 ease-in-out group-has-[a:hover]:text-purple-60" />
-                    <IconContainer src={iconsMaper[card.icon]} alt={card.name} className="mb-3 mx-auto" />
+                    <IconContainer src={iconsMaper[card.id]} alt={card.name} className="mb-3 mx-auto" />
                     <ul className="card-links flex items-center justify-center gap-2">
                         {
                             card.links.map((link, index) => (<li key={link.id || index}>
