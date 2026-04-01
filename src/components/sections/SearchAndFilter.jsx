@@ -1,8 +1,9 @@
 function SearchAndFilter() {
     return (
-        <section className="search-and-filter" id="searchAndFilter">
+        <section className="search-and-filter py-5" id="searchAndFilter">
             <div className="container">
-                Search And Filter
+                <h2>Search And Filter</h2>
+                <p>This Component Under Development...</p>
             </div>
         </section>
     )
